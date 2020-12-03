@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(2.jpg) no-repeat center  center fixed;
+    
+    background-size: cover;
+}
+
+.h h1{
+    font-family: 'Castoro', serif;
+    display: flex;
+    justify-content: center;
+    color: plum;
+    padding: 5%;
+  
+}
+.container{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Castoro', serif;
+   color: linear-gradient(   orange,  yellow);
+font-size: 35px;
+ border-bottom:5px solid purple;
+ margin-bottom: 43px;
+ padding: 13px 0;
+}
+
+.box{
+    margin: 23px 0;
+    width: 100%;
+   border-bottom: 2px solid purple;
+}
+.box input{
+    background: none;
+    width: 75%;
+
+   padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    
+}
+
+
+.box i{
+    padding: 0 12px;
+    width: 25px;
+   
+    text-align: center;
+}
+
+.btn{
+   
+    cursor: pointer;
+    outline: none;
+    border: 2px solid purple;
+    width: 25%;
+    margin: 12px 174px;
+    padding: 6px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: white;
+    background-color: purple;
+}
+
+
+.box:hover{
+    border-bottom: 2px solid white;
+}
